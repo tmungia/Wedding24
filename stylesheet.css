@@ -2,6 +2,7 @@
     box-sizing: border-box;
     color:rgb(255, 255, 255);
     font-family: 'Instrument Serif', serif;
+    overflow-x: hidden;
 }
 /*website background picture*/
 body {
@@ -196,8 +197,216 @@ h6{
     margin-left: auto;
     margin-right: auto;
     margin-bottom:20px;
+    margin-top:20px;
+    display:inline-block;
+    position: relative;
+    left:25%;
+}
+
+/*Success Page*/
+.giphy-embed{
+  font-size:30px;
+  position: relative;
+  left: 360px;
+  top:30px;
+  margin-bottom:40px;
+
+}
+
+.successtext {
+  color:black;
+  text-align:center;
+  font-size:25px;
+  margin-top:10px;
+  
+}
+.successtextlink{
+  text-decoration:underline;
+  color:blue;
+  text-align:center;
+  font-size:15px;
+  margin-top:10px;
+}
+
+.successcolour {
+  background-image: url(./Images/white\ box.png);
+}
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  /* Styles for mobile devices */
+/*website background picture*/
+body {
+    background-image:url(./Images/filipp-romanovski-p89ud3EfIi0-unsplash_v2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: hidden;
+}
+/*navigation*/
+.menu ul {
+    margin: 12% auto;
+    padding: 10% 10%;
+    text-align: center;
+    word-spacing: 5px;
+    text-align: right;
+  }
+.menu li {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline;
+  }
+
+/* homepage title*/
+.home {
+    font-size:50px;
+    text-align: center;
+    word-spacing:2px;
+    font-weight:500;
+    opacity:1;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+
+.home-location{
+  margin-bottom:1%;
+}
+/* travel page images*/
+.tz-images {
+  height:160px;
+  width:160px;
+  border-radius:80px;
+  border: 3px solid #ffffff91;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  margin-top:20px;
+  display:inline-block;
+  position: relative;
+  left:5%;
+}
+
+
+.tour-listtz {
+  list-style-type: none;
+  text-align:center;
+  position:relative;
+  left:10%;
+}
+
+.questions {
+  border: 3px solid rgb(255, 255, 255);
+  width: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  position:relative;
+  left:0%;
+  text-align:center;
+}
+
+.more-info-bar {
+  overflow-x: hidden;
+}
+
+.znz-hotel {
+  padding: 0px 5px;
+}
+
+.hotel2 {
+  margin-top: 10px;
+}
+
+.hotel-note{
+  color:#fbc71bf9;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
+.tours-includes{
+  list-style-type: none;
+  position:relative;
+  right:5%;
+  margin-top:20px;
+}
+
+/* Home & RSVP Page Button*/
+button{
+  height: 50%;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  border: 2px solid #fbc71bf9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: #e8c65724;
+  text-shadow: 0 -2px #00000043;
+  margin-top:1%;
+  text-align:center;
+
+}
+
+/*RSVP Page*/
+
+.rsvp {
+  font-size:20px;
+  text-align: center;
+  word-spacing:2px;
+  font-weight:500;
+  text-transform: uppercase;
+  margin-bottom:32px;
+  margin-top:20px;
+}
+
+#titlename {
+  font-size:90px;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+
+h6{
+  margin-bottom:30px;
+  margin-top:30px;
+  text-align:center;
+}
+
+/* Schedule Page*/
+
+.pad{
+  padding: 0px 0px;
+}
+.schedule-margin{
+  margin-top: 30px;
+}
+
+.bride-groom {
+    height:160px;
+    width:160px;
+    border-radius:80px;
+    border: 3px solid #ffffff91;
+    margin-bottom:10px;
     margin-top:10px;
     display:inline-block;
     position: relative;
-    left:30%;
+    left:6.5%;
 }
+.schtitle{
+  margin-bottom:10px;
+  margin-top:20px;
+  text-align:center;
+  font-size:22px;
+}
+.giphy-embed{
+  font-size:30px;
+  position: relative;
+  left: 2px;
+  top:30px;
+  margin-bottom:50px;
+  margin-top:50px;
+  width:100%;
+
+}
+ }
+
+
