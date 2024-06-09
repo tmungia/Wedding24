@@ -277,7 +277,7 @@ body {
   height:160px;
   width:160px;
   border-radius:80px;
-  border: 3px solid #ffffff91;
+  border: 3px solid white;
   margin-left: auto;
   margin-right: auto;
   margin-bottom:5px;
@@ -389,7 +389,7 @@ h6{
     height:160px;
     width:160px;
     border-radius:80px;
-    border: 3px solid #ffffff91;
+    border: 3px solid white;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:5px;
