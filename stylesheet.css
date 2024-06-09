@@ -2,6 +2,7 @@
     box-sizing: border-box;
     color:rgb(255, 255, 255);
     font-family: 'Instrument Serif', serif;
+    overflow: hidden;
 }
 /*website background picture*/
 body {
@@ -258,7 +259,7 @@ body {
 
 /* homepage title*/
 .home {
-    font-size:40px;
+    font-size:50px;
     text-align: center;
     word-spacing:2px;
     font-weight:500;
