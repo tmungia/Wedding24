@@ -2,7 +2,6 @@
     box-sizing: border-box;
     color:rgb(255, 255, 255);
     font-family: 'Instrument Serif', serif;
-    overflow: hidden;
 }
 /*website background picture*/
 body {
@@ -293,7 +292,7 @@ body {
   list-style-type: none;
   text-align:center;
   position:relative;
-  left:10%;
+  left:7%;
   margin-bottom:0px;
   line-height: 27px;
 }
