@@ -294,6 +294,17 @@ body {
   text-align:center;
   position:relative;
   left:10%;
+  margin-bottom:0px;
+  line-height: 27px;
+}
+
+.tour-listtz2{
+  list-style-type: none;
+  text-align:center;
+  position:relative;
+  Right:10%;
+  margin-top:-3px;
+  line-height: 27px;
 }
 
 .questions {
