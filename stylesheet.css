@@ -203,6 +203,7 @@ h6{
     left:25%;
 }
 
+
 /*Success Page*/
 .giphy-embed{
   font-size:30px;
@@ -422,6 +423,9 @@ h6{
 .weddinginfo{
   margin-top:20px;
   margin-bottom:20px;
+}
+.remove {
+  display:none;
 }
  }
 
